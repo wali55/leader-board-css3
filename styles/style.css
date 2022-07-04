@@ -47,9 +47,7 @@ nav{
 .fa-lightbulb{
     padding-right: 15.5px;
 }
-.logo-title{
-    /* display: inline-block; */
-}
+
 .nav-content{
     display: flex;
     align-items: center;
