@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 main{
     display: flex;
@@ -21,6 +22,51 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
+}
+
+/* nav style */
+.outer-box{
+    background: #562EFF;
+    display: flex;
+    justify-content: center;
+    height: 94px;
+}
+.inner-box{
+    width: 925px;
+    height: 94px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icon{
+    display: flex;
+    color: #fff;
+    font-size: 24px;
+}
+.fa-lightbulb{
+    padding-right: 15.5px;
+}
+.logo-title{
+    /* display: inline-block; */
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-content ul{
+    list-style: none;
+    display: flex;
+}
+.nav-content ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding-right: 36px;
+}
+.nav-image{
+    width: 51px;
+    height: 51px;
 }
 /* top player style */
 .top-players{
@@ -82,6 +128,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    
 }
 .course .course-banner img{
     width: 224px;
@@ -119,6 +166,9 @@ hr{
     border-radius: 14.6px;
     color: #FF4A60;
     font-size: 14.6px;
+}
+.section-end{
+    margin-bottom: 28px;
 }
 
 /*----------------------------
